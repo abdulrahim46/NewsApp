@@ -6,14 +6,26 @@
 //  Copyright © 2020 Abdul chaudhary. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 
 class cardView: UITableViewCell {
     
+    @IBOutlet weak var imgVIew: UIImageView!
+    @IBOutlet weak var headLinelb: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
+    
+    
+    
+    
+    
+    
+    
+    
 }
